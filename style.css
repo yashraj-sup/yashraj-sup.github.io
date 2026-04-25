@@ -25,3 +25,10 @@ h1 {
 a {
     color: #e0e0e0;
 }
+.light-mode{
+    background-color:#ffffff;
+    color:#111111;
+}
+.light-mode nav a{
+    color:#444;
+}
