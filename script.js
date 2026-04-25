@@ -13,3 +13,10 @@ toggle.addEventListener('click', function(){
         toggle.textContent='☀️';
     }
 });
+const currentPage= window.location.pathname.split('/').pop();
+const navlinks=document.querySelectorAll('nav a');
+navlinks.forEach(function(link){
+    if(link.getAttribute('href')===currentPage){
+        link.style.color='#e0e0e0';
+    }
+});
