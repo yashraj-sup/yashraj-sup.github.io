@@ -25,10 +25,19 @@ h1 {
 a {
     color: #e0e0e0;
 }
-.light-mode{
-    background-color:#ffffff;
-    color:#111111;
+
+.light-mode {
+    background-color: #ffffff;
+    color: #111111;
 }
-.light-mode nav a{
-    color:#444;
+
+.light-mode nav a {
+    color: #444;
+}
+
+#theme-toggle {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 1.2rem;
 }
