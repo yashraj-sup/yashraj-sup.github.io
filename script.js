@@ -4,6 +4,13 @@ const wordcount=text.split(' ').length;
 const readingtime=Math.ceil(wordcount/200);
 document.querySelector('time') .insertAdjacentText('afterend',` - ${readingtime} min read`);
 }
+const bar=document.querySelector('#progress-bar');
+window.addEventListener('scroll',function(){
+    const scrolled=window.scrollY;
+    const total=document.body.scrollHeight - window.innerHeight;
+    const progress=(scrolled/total)*100;
+    bar.style.width = progress+'%';
+});
 const toggle=document.querySelector('#theme-toggle');
 toggle.addEventListener('click', function(){
     document.body.classList.toggle('light-mode');
