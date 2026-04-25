@@ -69,3 +69,7 @@ article h2 a:hover {
     font-size:0.85rem;
     color:#888;
 }
+main{
+    max-width:680px;
+    margin: 0 auto;
+}
