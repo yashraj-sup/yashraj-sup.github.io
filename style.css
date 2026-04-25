@@ -41,21 +41,31 @@ a {
     cursor: pointer;
     font-size: 1.2rem;
 }
-#progress-bar{
-    position:fixed;
-    top:0;
-    left:0;
-    height:3px;
-    width:0%;
+
+#progress-bar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 3px;
+    width: 0%;
     background-color: #FF6719;
-    transition:width 0.1s linear;
-    z-index:100;
+    transition: width 0.1s linear;
+    z-index: 100;
 }
-nav a,article h2 a{
-    display:inline block;
+
+nav a,
+article h2 a {
+    display: inline block;
     transition: transform 0.1s, font-weight 0.1s;
 }
-nav a:hover , article h2 a:hover{
-    transform:scale(1.05);
-    font-weight:700;
+
+nav a:hover,
+article h2 a:hover {
+    transform: scale(1.05);
+    font-weight: 700;
+}
+
+.post-meta {
+    font-size:0.85rem;
+    color:#888;
 }

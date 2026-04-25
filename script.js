@@ -1,4 +1,4 @@
-if(document.querySelector('time')){
+if(document.querySelector('#progress-bar')){
 const text=document.querySelector('main').innerText;
 const wordcount=text.split(' ').length;
 const readingtime=Math.ceil(wordcount/200);
